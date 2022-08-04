@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@100;400;700&family=Bellefair&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --Red: #ff7a7a;
+  --Green: #38cc8c;
+  --Dark-Blue: #3e3c49;
+  --Grayish-Blue: #b9b6d3;
+  --Blue: #6055a5;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+}
+
+.info h1 {
+  font-weight: bold;
+  margin-top: 80px;
+  font-size: 47px;
+}
+.info {
+  color: rgb(236, 236, 243);
+  margin-top: 80px;
+  margin-left: 35px;
+}
+.info p {
+  margin-top: 10px;
+  padding: 0 5.5px 0 0.5px;
+}
+
+.btn-1 {
+  padding: 15px 45px;
+  background-color: #6055a5;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 6px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.btn-1 span {
+  font-weight: bold;
+}
+
+#validateForm {
+  display: block;
+  background-color: white;
+  box-shadow: 0 6px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin-top: 19px;
+  border-radius: 12px;
+}
+input {
+  border: 1px solid #b9b6d3;
+  border-radius: 7px;
+  padding: 10px;
+  font-weight: bold;
+  width: 90%;
+}
+.error-block {
+  color: red;
+  text-align: end;
+  margin-bottom: 5px;
+}
+#btn {
+  padding: 10px 30px;
+  background-color: #38cc8c;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+}
+.side p {
+  margin-top: 10px;
+}
+.side p span {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: #ff7a7a;
+  }
+  .container {
+    margin: 20px;
+    padding: 10px;
+    display: block;
+  }
+  .info {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* @media screen and (max-width:600px) {
+    
+    .container {
+        margin: 20px;
+        padding: 10px;
+    }
+    .form__container {
+        display: block;
+    }
+    .form__container .info {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .signup__container {
+        width: 100%;
+    }
+    .info h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .info p {
+        text-align: center;
+        line-height: 1.6;
+        font-size: 21px;
+        margin-top: 12px;
+    }
+    .btn__1 {
+        font-size: 17px;
+        padding: 24px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .signup__box {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .btn__2 {
+        margin-top: 12px;
+        font-size: 15px;
+        padding: 17px;
+        width: 100%;
+    }
+} */

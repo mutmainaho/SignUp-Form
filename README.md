@@ -1,4 +1,4 @@
 # SignUp-Forn
-Using React hock for  Form Validation
+Used Reacthook and Swal for  Form Validation
 
 
